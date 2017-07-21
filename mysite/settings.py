@@ -25,7 +25,7 @@ SECRET_KEY = '1ni*40vxip%o_hncvqq!axc+4y5-dy=f^jh#b@zfc6#484qp-9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'sugaronsnow.pythonanywhere.com']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'CST'
+TIME_ZONE = 'America/Chicago'
 
 USE_I18N = True
 
